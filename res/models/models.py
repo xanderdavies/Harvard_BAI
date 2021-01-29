@@ -1,9 +1,8 @@
-import sys
-import os
-sys.path.append('/data/graphics/toyota-pytorch/training_scaffold_own/res/')
-import torchvision
+import pickle
+import pathlib
+current_path = pathlib.Path(__file__).parent.absolute()
 
-print('Models are being loaded from: %s'%os.getcwd())
+print('Models are being loaded from: %s'%current_path)
 
 def get_model(MODEL_ARCH, NUM_CLASSES):
     if MODEL_ARCH == 'CustomCNN':
