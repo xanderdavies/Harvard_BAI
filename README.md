@@ -1,2 +1,2 @@
 # Harvard_BAI
-Repo for Harvard's Biological and Artificial Intelligence course (Neuro 140/240)!
+Repo for Harvard's Biological and Artificial Intelligence course (Neuro 140/240).
